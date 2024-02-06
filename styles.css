@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=REM:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&family=REM:wght@300&display=swap');
+
+
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 42%, rgba(0,212,255,1) 100%); 
+    color: white;
+    font-family: 'Kanit';
+}
+
+main{
+    width: 730px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.section1{
+    background-color: rgba(255,255,255,0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+.section2{
+    background-color: rgba(255,255,255,0.2);
+    width: 250px;
+    height: 450px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 0 20px;
+}
+
+.estadisticas{
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+footer{
+    text-align: center;
+}
+
+img{
+    width: 80%;
+}
+
+#Reiniciar{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    align-items: center;
+    padding: 0;
+}
+
+#Reiniciar:hover{
+    background-color: rgb(52, 146, 214);
+    color: white;
+}
+
+#Reiniciar:active{
+    background-color: white;
+    color: black;
+}
